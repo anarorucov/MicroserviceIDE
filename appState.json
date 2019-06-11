@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "da494c4b-b3b7-4ad2-9892-3c461e9dbd5c": {
+        "id": "da494c4b-b3b7-4ad2-9892-3c461e9dbd5c",
+        "parent": null,
+        "name": "MicroserviceIDE",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "472472e1-8b13-4292-99fa-255bb20c5fa8"
+        ],
+        "isRemovable": false,
+        "filePath": "MicroserviceIDE"
+      },
+      "472472e1-8b13-4292-99fa-255bb20c5fa8": {
+        "id": "472472e1-8b13-4292-99fa-255bb20c5fa8",
+        "parent": "da494c4b-b3b7-4ad2-9892-3c461e9dbd5c",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MicroserviceIDE/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "da494c4b-b3b7-4ad2-9892-3c461e9dbd5c",
+    "openFiles": [
+      "472472e1-8b13-4292-99fa-255bb20c5fa8"
+    ],
+    "currentFileId": "472472e1-8b13-4292-99fa-255bb20c5fa8",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "MicroserviceIDE",
+    "projectDescription": "This project is for scientific paper",
+    "projectVersion": "1.0.0",
+    "projectRegion": "eu-central-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1560254860495
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "MicroserviceIDE",
+      "url": "https://github.com/anarorucov/MicroserviceIDE"
+    }
+  }
+}
